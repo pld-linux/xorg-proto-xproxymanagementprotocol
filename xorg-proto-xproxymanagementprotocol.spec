@@ -10,7 +10,7 @@ Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC1/proto/xproxymanagement
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	pkgconfig >= 0.19
+BuildRequires:	pkgconfig >= 1:0.19
 BuildRequires:	xorg-util-util-macros
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
