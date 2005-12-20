@@ -1,16 +1,15 @@
 Summary:	PM protocol and ancillary headers
 Summary(pl):	Nag³ówki protoko³u PM i pomocnicze
 Name:		xorg-proto-xproxymanagementprotocol
-Version:	1.0.1
+Version:	1.0.2
 Release:	0.1
 License:	MIT
 Group:		X11/Development/Libraries
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC1/proto/xproxymanagementprotocol-%{version}.tar.bz2
-# Source0-md5:	2951543a1d5687d54db825bac2bffaed
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC4/proto/xproxymanagementprotocol-%{version}.tar.bz2
+# Source0-md5:	730fa5beb16a913b92ef9808dcb6807e
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	pkgconfig >= 1:0.19
 BuildRequires:	xorg-util-util-macros
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -55,5 +54,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files devel
 %defattr(644,root,root,755)
+%doc COPYING ChangeLog
+%dir %{_includedir}/X11/PM
 %{_includedir}/X11/PM/*.h
 %{_pkgconfigdir}/xproxymngproto.pc
