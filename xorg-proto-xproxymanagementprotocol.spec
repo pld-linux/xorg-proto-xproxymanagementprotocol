@@ -5,7 +5,7 @@ Version:	1.0.2
 Release:	1
 License:	MIT
 Group:		X11/Development/Libraries
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/proto/xproxymanagementprotocol-%{version}.tar.bz2
+Source0:	http://xorg.freedesktop.org/releases/individual/proto/xproxymanagementprotocol-%{version}.tar.bz2
 # Source0-md5:	d28007a50976204960fc1fc07b4ca093
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf
