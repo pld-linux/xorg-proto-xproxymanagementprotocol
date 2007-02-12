@@ -1,5 +1,5 @@
 Summary:	PM protocol and ancillary headers
-Summary(pl.UTF-8):   Nagłówki protokołu PM i pomocnicze
+Summary(pl.UTF-8):	Nagłówki protokołu PM i pomocnicze
 Name:		xorg-proto-xproxymanagementprotocol
 Version:	1.0.2
 Release:	1
@@ -21,7 +21,7 @@ Nagłówki protokołu PM i pomocnicze.
 
 %package devel
 Summary:	PM protocol and ancillary headers
-Summary(pl.UTF-8):   Nagłówki protokołu PM i pomocnicze
+Summary(pl.UTF-8):	Nagłówki protokołu PM i pomocnicze
 Group:		X11/Development/Libraries
 Requires:	xorg-proto-xproto-devel
 
