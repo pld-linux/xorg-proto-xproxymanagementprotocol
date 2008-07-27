@@ -2,7 +2,7 @@ Summary:	PM protocol and ancillary headers
 Summary(pl.UTF-8):	Nagłówki protokołu PM i pomocnicze
 Name:		xorg-proto-xproxymanagementprotocol
 Version:	1.0.2
-Release:	1
+Release:	2
 License:	MIT
 Group:		X11/Development/Libraries
 Source0:	http://xorg.freedesktop.org/releases/individual/proto/xproxymanagementprotocol-%{version}.tar.bz2
