@@ -1,13 +1,14 @@
+# NOTE: now maintained in xorg-proto-xorgproto.spec
 Summary:	X Proxy Management Protocol headers
 Summary(pl.UTF-8):	Pliki nagłówkowe protokołu X Proxy Management
 Name:		xorg-proto-xproxymanagementprotocol
 Version:	1.0.3
-Release:	3
+Release:	3.1
 License:	MIT
 Group:		X11/Development/Libraries
-Source0:	http://xorg.freedesktop.org/releases/individual/proto/xproxymanagementprotocol-%{version}.tar.bz2
+Source0:	https://xorg.freedesktop.org/releases/individual/proto/xproxymanagementprotocol-%{version}.tar.bz2
 # Source0-md5:	9de22ca1522008c28fb03dfc41ba2d30
-URL:		http://xorg.freedesktop.org/
+URL:		https://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
 BuildRequires:	xorg-util-util-macros >= 1.3
